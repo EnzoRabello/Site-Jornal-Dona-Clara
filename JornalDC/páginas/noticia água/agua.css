@@ -1,0 +1,163 @@
+@import url("https://fonts.googleapis.com/css?family=Titillium+Web:400,700&display=swap");
+
+body {
+    margin: 0;
+    padding: 0%;
+    font-family: "Titillium Web", sans-serif;
+}  
+
+.navbar {
+    background-color: #C4170C;
+    width: 100%;
+    height: 80px;
+    box-shadow: rgba(0, 0, 0, 0.19) 0px 10px 20px, rgba(0, 0, 0, 0.23) 0px 6px 6px;
+}
+
+.logoDC {
+    width: 70px;
+    height: 70px;
+    display: block;
+    margin: 0 auto;
+    padding-top: 5px;
+}
+
+.barra-pesquisa {
+    position: relative;
+    bottom: 35px;
+    right: 570px;
+}
+
+#menu {
+  z-index: 9999;
+}
+
+#menu-bar {
+  width: 30px;
+  height: 40px;
+  margin: 30px 0 20px 20px;
+  cursor: pointer;
+  z-index: 999;
+}
+
+.bar {
+  height: 5px;
+  width: 100%;
+  background-color: #ffffff;
+  display: block;
+  border-radius: 5px;
+  transition: 0.3s ease;
+  z-index: 999;
+}
+
+#bar1 {
+  transform: translateY(-4px);
+}
+
+#bar3 {
+  transform: translateY(4px);
+}
+
+.nav {
+  transition: 0.3s ease;
+  display: none;
+}
+
+.nav ul {
+  padding: 0 22px;
+}
+
+.nav li {
+  list-style: none;
+  padding: 12px 0;
+}
+
+.nav li a {
+  color: white;
+  font-size: 20px;
+  text-decoration: none;
+}
+
+.nav li a:hover {
+  font-weight: bold;
+}
+
+.menu-bg, #menu {
+  top: 0;
+  left: 0;
+  position: absolute;
+  z-index: 999;
+}
+
+.menu-bg {
+  z-index: 1;
+  width: 0;
+  height: 0;
+  margin: 30px 0 20px 20px;
+  background: radial-gradient(circle, #ff5353, #C4170C);
+  border-radius: 50%;
+  transition: 0.2s ease;
+  box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+
+.change {
+  display: block;
+}
+
+.change .bar {
+  background-color: white;
+}
+
+.change #bar1 {
+  transform: translateY(4px) rotateZ(-45deg);
+}
+
+.change #bar2 {
+  opacity: 0;
+}
+
+.change #bar3 {
+  transform: translateY(-6px) rotateZ(45deg);
+}
+
+.change-bg {
+  width: 520px;
+  height: 460px;
+  transform: translate(-60%,-30%);
+}
+
+.noticia {
+    margin-left: 80px;
+    margin-right: 80px;
+}
+
+.titulo-noticia {
+    text-align: justify;
+    width: 40%;
+    margin: 0 auto;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 55px;
+    font-family: 'Secular One', sans-serif;
+    color: rgb(163, 0, 0);
+}
+
+.corpo-noticia {
+    line-height: 1.5;
+    text-align: justify;
+    width: 70%;
+    margin: 0 auto;
+    padding: 30px;
+    font-size: 25px;
+    font-family: opensans,helvetica,arial,sans-serif;
+    color: #333;
+    border-radius: 30px;
+    box-shadow: rgba(60, 64, 67, 0.3) 0px 1px 2px 0px, rgba(60, 64, 67, 0.15) 0px 2px 6px 2px;
+}
+
+.fotoHF {
+    margin: 30px;
+    max-width: 400px;
+    max-height: 400px;
+    float: right;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 14px 28px, rgba(0, 0, 0, 0.22) 0px 10px 10px;
+}

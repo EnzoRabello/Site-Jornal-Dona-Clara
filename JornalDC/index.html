@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html lang="pt" >
+<head>
+  <meta charset="UTF-8">
+  <title>O Jornal Dona Clara</title>
+  <link rel="shortcut icon" href="./img/icone-dc.ico" type="image/x-icon" />
+  <link rel="stylesheet" href="./main.css">
+  <link rel="preconnect" href="https://fonts.gstatic.com">
+  <link href="https://fonts.googleapis.com/css2?family=Oswald&display=swap" rel="stylesheet">
+</head>
+<body>
+  <header class="navbar">
+    <img src="./img/logo-dc.png" alt="DC" class="logoDC">
+    <div id="menu">
+      <div id="menu-bar" onclick="menuOnClick()">
+        <div id="bar1" class="bar"></div>
+        <div id="bar2" class="bar"></div>
+        <div id="bar3" class="bar"></div>
+      </div>
+      <nav class="nav" id="nav">
+        <ul>
+          <li><a href="#comecoDaPagina">Página Inicial</a></li>
+          <li><a href="#InformacoesBairro">Sobre o bairro</a></li>
+          <li><a href="#Footer">Sobre nós</a></li>
+          <li><a href="#Footer">Contato</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="menu-bg" id="menu-bg"></div>
+  </header>
+  <main>
+    <section id="comecoDaPagina" class="noticias">
+      <div class="carousel">
+        <div class="progress-bar progress-bar--primary hide-on-desktop">
+          <div class="progress-bar__fill"></div>
+        </div>
+        <header class="main-post-wrapper">
+          <div class="slides">
+            <article class="main-post main-post--active">
+              <div class="main-post__image">
+                <img src="./img/hortifruti-dc.jpeg" alt="Imagem do hortifruti no bairro Dona Clara" />
+              </div>
+              <article class="noticia1">
+                <div class="main-post__content">
+                  <div class="main-post__tag-wrapper">
+                    <span class="main-post__tag">Notícias</span>
+                  </div>
+                  <h1 class="main-post__title">Novo hortifruti é finalmente inaugurado no bairro.</h1>
+                  <a class="main-post__link" href="./páginas/noticia hortifruti/hortifruti.html">
+                    <span class="main-post__link-text">encontre mais aqui</span>
+                    <svg class="main-post__link-icon main-post__link-icon--arrow" width="37" height="12"
+                      viewBox="0 0 37 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M0 6H36.0001M36.0001 6L31.0001 1M36.0001 6L31.0001 11" stroke="white" />
+                    </svg>
+                  </a>
+                </div>
+              </article>
+            </article>
+            <article class="main-post main-post--not-active">
+              <div class="main-post__image">
+                <img src="./img/aviao-pampulha.jpg" />
+              </div>
+              <article class="noticia2">
+                <div class="main-post__content">
+                  <div class="main-post__tag-wrapper">
+                    <span class="main-post__tag">Video</span>
+                  </div>
+                  <h1 class="main-post__title">Copiloto morre e outros dois ficam feridos em acidente com jatinho no
+                  aeroporto da Pampulha.</h1>
+                  <iframe width="360" height="155" src="https://www.youtube.com/embed/m-DshUCbc_4"
+                    title="YouTube video player" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    class="iframeYoutube" allowfullscreen data-lity>Ver vídeo</iframe>
+  
+                  <span class="main-post__link-text"></span>
+  
+                </div>
+              </article>
+            </article>
+            <article class="main-post main-post--not-active">
+              <div class="main-post__image">
+                <img src="./img/torneirasemagua.jpg" />
+              </div>
+              <article class="noticia3">
+                <div class="main-post__content">
+                  <div class="main-post__tag-wrapper">
+                    <span class="main-post__tag">News</span>
+                  </div>
+                  <h1 class="main-post__title">Sem água! Bairros da Pampulha terão abastecimento suspenso.
+                  </h1>
+                  <a class="main-post__link" href="./páginas/noticia água/agua.html">
+                    <span class="main-post__link-text">encontre mais aqui</span>
+                    <svg class="main-post__link-icon main-post__link-icon--arrow" width="37" height="12"
+                      viewBox="0 0 37 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+                      <path d="M0 6H36.0001M36.0001 6L31.0001 1M36.0001 6L31.0001 11" stroke="white" />
+                    </svg>
+                  </a>
+                </div>
+              </article>
+            </article>
+          </div>
+        </header>
+  
+        <div class="posts-wrapper hide-on-mobile">
+          <article class="post post--active">
+            <div class="progress-bar">
+              <div class="progress-bar__fill"></div>
+            </div>
+            <header class="post__header">
+              <span class="post__tag">News</span>
+              <p class="post__published">23 Novembro 2020</p>
+            </header>
+            <h2 class="post__title">Novo hortifruti chamado "Sacolão ABC Jóia" é finalmente inaugurado na Avenida
+              Cristiano Machado</h2>
+          </article>
+          <article class="post">
+            <div class="progress-bar">
+              <div class="progress-bar__fill"></div>
+            </div>
+            <header class="post__header">
+              <span class="post__tag">Video</span>
+              <p class="post__published">20 Abril 2021</p>
+            </header>
+            <h2 class="post__title">Uma aeronave sofreu um acidente no Aeroporto da Pampulha, no início da tarde desta
+              terça-feira (20). </h2>
+          </article>
+          <article class="post">
+            <div class="progress-bar">
+              <div class="progress-bar__fill"></div>
+            </div>
+            <header class="post__header">
+              <span class="post__tag">News</span>
+              <p class="post__published">22 Abril 2021</p>
+            </header>
+            <h2 class="post__title">Moradores de alguns bairros da região da Pampulha ficarão sem água.
+            </h2>
+          </article>
+        </div>
+      </div>
+    </section>
+  
+    <main>
+      <div id="InformacoesBairro" class="sobreBairro">
+        <article class="informacoesBairro">
+          <h1 class="tituloSobreBairro">Sobre o bairro Dona Clara</h1>
+          <br>
+          <img src="./img/bairro-dona-clara.jpg" alt="Foto do bairro Dona Clara" title="Foto do bairro Dona Clara"
+            class="fotoBairro">
+  
+          <p class="primeiroP">ㅤㅤㅤO bairro Dona Clara é localizado na região leste da Pampulha e devido ao preço mais alto
+            de imóveis nos tradicionais bairros de Belo Horizonte – como Lourdes, Funcionários e outros da área –, o
+            processo de migração de muitos jovens nascidos e criados na região Sul para os arredores da Pampulha vem se
+            tornando algo que ocorre frequentemente. Entre tantos outros logradouros próximos ao belíssimo complexo
+            turístico, o bairro Dona Clara atrai, além do grupo já citado, muitos trabalhadores enfastiados de ter que
+            atravessar toda a cidade para assumir seus postos em locais como a Cidade Administrativa, por exemplo. Isso
+            ocorre por causa da facilidade no acesso e, principalmente, pela qualidade e esmero dos novos empreendimentos
+            de alto padrão erguidos no bairro.
+          </p>
+  
+          <p class="segundoP">
+            ㅤㅤㅤHaldane Júnior, sócio da Rede Morar Memphis Imóveis, disse: “As pessoas finalmente encontraram a maquete da
+            zona sul em Dona Clara e concluíram apartamentos de alto padrão”. Segundo o executivo, edifícios residenciais
+            recém-construídos nas proximidades costumam ser de três a quatro quartos, e agora existem pelo menos duas
+            vagas de garagem, "obrigatórias". O nível de desenvolvimento é semelhante ao da região Sul, mas o preço é bem
+            inferior ao nível real da área coberta pela Avenida do Contorno. Segundo dados do Sindicato dos Corretores de
+            Imóveis do Estado de Minas Gerais (Creci-MG), o preço médio do metro quadrado do Dona Clara em janeiro foi de
+            R$ 4.420, enquanto o preço médio da Lourdes no mesmo período foi de R$ 8.388..., Quase dobrou tanto quanto a
+            maioria das áreas residenciais da Pampulha.
+          </p>
+          <br>
+        </article>
+      </div>
+      </article>
+      </div>
+      <footer>
+        <article id="Footer" class="footerContent">
+          <footer>
+            <div class="footer">
+              <div class="footer_sobre">
+                <h3>Sobre nós</h3>
+                <p class="paragrafoFooter">Nós, um grupo de 3 pessoas e moradores do bairro voluntariamente decidimos
+                  criar este site com o intuito de manter as notícias e informações sobre este bairro e bairros vizinhos
+                  "fresquinhas nas suas mesas" para quem quiser e tiver interesse em entrar no site. Este site será
+                  atualizado a cada dia trazendo as principais notícias para todos e sempre estamos trabalhando para
+                  melhorar o site cada vez mais.</p>
+              </div>
+              <div class="footer_main">
+                <h3 class="textoContato">Contato</h3>
+                <div class="informacoesfooter">
+                  <p>Nosso telefone: 3498-8172</p>
+                  <p>Nosso email: jornaldc@jornaldonaclara.com</p>
+                  <p>Nosso endereço: Avenida Sebastião de Brito - 3128</p>
+                </div>
+              </div>
+              <div class="iconesSociaisFooter">
+                <h4 class="_14">Nos siga em</h4>
+                <ul class="social-icons">
+                  <li><a href="# class="social-icon"> <i class="fa fa-facebook"></i></a></li>
+                  <li><a href="#" class="social-icon"> <i class="fa fa-twitter"></i></a></li>
+                  <li><a href="#" class="social-icon"> <i class="fa fa-rss"></i></a></li>
+                  <li><a href="#" class="social-icon"> <i class="fa fa-youtube"></i></a></li>
+                  <li><a href="#" class="social-icon"> <i class="fa fa-linkedin"></i></a></li>
+                </ul>
+              </div>
+              <div class="googlemaps">
+                <iframe
+                  src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3752.48230401777!2d-43.94335758508658!3d-19.861846186641912!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xa69a9cff481ac1%3A0xbb876236689b71d!2sAv.%20Sebasti%C3%A3o%20de%20Brito%2C%20Belo%20Horizonte%20-%20MG%2C%2031270-705!5e0!3m2!1spt-BR!2sbr!4v1619804246897!5m2!1spt-BR!2sbr"
+                  width="300" height="250" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+              </div>
+              <div class="menuRapido">
+                <h1>Menu Rápido</h1>
+                <ul>
+                  <li><a href="#comecoDaPagina">Página Inicial</a></li>
+                  <li><a href="#InformacoesBairro">Sobre o bairro</a></li>
+                  <li><a href="#SobreNos">Sobre nós</a></li>
+                  <li><a href="#Footer">Contato</a></li>
+                </ul>
+              </div>
+            </div>
+            </div>
+            </div>
+            <div class="copyright">
+              Copyright © 2021 All Rights Reserved by Jornal Dona Clara
+            </div>
+        </article>
+      </footer>
+    </main>
+  <script src="./script.js"></script>
+</body>
+</html>
